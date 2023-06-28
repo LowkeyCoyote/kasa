@@ -1,0 +1,26 @@
+.footerWrapper{
+    height:13rem;
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.footerTitle{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+
+}
+
+.footerImg{
+    margin-top: 5rem;
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 768px){
+    .footerTitle{
+        font-size: .75rem;
+        margin-top: 1.5rem;
+    }
+}
+

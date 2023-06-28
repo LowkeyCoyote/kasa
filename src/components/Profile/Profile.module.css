@@ -1,0 +1,38 @@
+.profileWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.profileName{
+    margin-right: 1rem;
+    color: var(--orange);
+    font-size: 18px;
+    text-align: right;
+}
+
+.thumbnail{
+    border-radius: 999px;
+    height: 64px;
+    width: 64px;
+}
+
+@media screen and (max-width: 768px){
+    .profileName{
+        font-size: 12px;
+    }
+
+    .thumbnail{
+        border-radius: 999px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .profileWrapper{
+        margin-top: 1rem;
+    }
+}
+
+
+

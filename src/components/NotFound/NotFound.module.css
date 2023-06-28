@@ -1,0 +1,49 @@
+.NotFoundWrapper{
+    display: grid;
+    place-content: center;
+    padding: 0 6.25rem;
+    height: calc(120vh - 286px);
+    color: var(--orange);
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+.NotFoundWrapper h1{
+    font-weight: 700;
+    font-size: 18rem;
+}
+
+.NotFoundWrapper p{
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 8rem;
+}
+
+.NotFoundWrapper a{
+    text-decoration: underline;
+    color: var(--orange);
+    font-size: 1.125rem;
+
+}
+
+@media screen and (max-width: 768px){
+    .NotFoundWrapper{
+        height: calc(100vh - 308px);
+        padding: 0 1.25rem;
+    }
+
+    .NotFoundWrapper h1{
+        font-size: 6rem;
+    }
+
+    .NotFoundWrapper p{
+        font-size: 1.125rem;
+        margin-bottom: 4rem;
+    }
+
+    .NotFoundWrapper a{
+        font-size: 0.875rem;
+    }
+} 
+
+

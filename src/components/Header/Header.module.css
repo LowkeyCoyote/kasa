@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 4.25rem 6.25rem 2rem 6.25rem;
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 768px){
+    .header{
+        padding: 1rem 1.25rem .5rem 1.25rem;
+        font-size: 0.75rem;
+    }
+
+    .headerLogo{
+        max-height: 67px;
+        max-width: 145px;
+    }
+}

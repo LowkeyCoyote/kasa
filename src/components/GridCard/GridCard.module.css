@@ -1,0 +1,30 @@
+.gridWrapper{
+    margin: 2.5rem 6.25rem;
+    background-color: var(--light-grey);
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 3rem;
+}
+
+
+/* Tablet */
+@media screen and (max-width: 800px){
+    .gridWrapper{
+        margin: 1.5rem 1.25rem;
+        border-radius: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width : 480px){
+    .gridWrapper{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        background-color: var(--white);
+        grid-gap: 20px;
+    }
+}
