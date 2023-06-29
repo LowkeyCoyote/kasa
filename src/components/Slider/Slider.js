@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Slider.module.css'
-import prevArrow from '../../assets/img/ArrowPrev.png';
-import nextArrow from '../../assets/img/ArrowNext.png';
+import prevArrow from '../../assets/img/arrowPrev.png';
+import nextArrow from '../../assets/img/arrowNext.png';
 import { useState } from 'react';
 
 export default function Slider({sliderImgs}) {
