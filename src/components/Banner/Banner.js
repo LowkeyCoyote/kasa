@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './Banner.module.css'
 
-export default function Banner(props) {
+export default function Banner({bannerImg, bannerText}) {
   return (
     <div 
     className={styles.bannerWrapper}
-    style={{backgroundImage:`url(${props.bannerImg})`}}
+    style={{backgroundImage:`url(${bannerImg})`}}
     >
         <div class={styles.bannerOverlay}></div>
-        <p>{props.bannerText}</p>
+        <p>{bannerText}</p>
     </div>
   )
 }

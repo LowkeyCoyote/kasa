@@ -20,10 +20,15 @@ export default function Housing() {
 
   useEffect(() => {
     if(index === - 1){
-      navigate("/error")
+      navigate("/404")
       return;
     }
   }, [id, index, navigate])
+
+
+  if(index === -1){
+    return null;
+  }
 
 
   const houseData = datas[index];
@@ -37,7 +42,7 @@ export default function Housing() {
         <Slider
           sliderImgs={pictures}
         />
-
+        
         <InfoHouse
         houseTitle={title}
         location={location}
