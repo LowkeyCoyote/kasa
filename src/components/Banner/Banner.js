@@ -7,7 +7,7 @@ export default function Banner({bannerImg, bannerText}) {
     className={styles.bannerWrapper}
     style={{backgroundImage:`url(${bannerImg})`}}
     >
-        <div class={styles.bannerOverlay}></div>
+        <div className={styles.bannerOverlay}></div>
         <p>{bannerText}</p>
     </div>
   )
