@@ -7,7 +7,6 @@ import Slider from '../components/Slider/Slider'
 import InfoHouse from '../components/InfoHouse/InfoHouse'
 import Collapse from '../components/Collapse/Collapse'
 
-
 export default function Housing() {
 
   const arrayId = []
@@ -15,6 +14,7 @@ export default function Housing() {
 
   const navigate = useNavigate()
   const { id } = useParams();
+
   const index = arrayId.indexOf(id)
 
 
@@ -42,7 +42,7 @@ export default function Housing() {
         <Slider
           sliderImgs={pictures}
         />
-        
+          
         <InfoHouse
         houseTitle={title}
         location={location}

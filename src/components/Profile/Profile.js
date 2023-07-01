@@ -8,7 +8,7 @@ export default function Profile(props) {
             {props.firstname} <br />
             {props.lastname}
         </div>
-        <img className={styles.thumbnail} src={props.thumbnail} alt="" />
+        <img className={styles.thumbnail} src={props.thumbnail} alt="thumbnail" />
     </div>
   )
 }
